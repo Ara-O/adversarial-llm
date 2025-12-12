@@ -1,0 +1,11 @@
+gpt2-alpaca-finetuned/
+gpt2-alpaca-finetuned-final/
+gpt2-alpaca-finetuned-final-20251029T010655Z-1-001.zip
+.venv/
+gpt2*/
+.env
+pythia*/
+baseline/gpt2*
+models/gpt2*
+gpt2-poisoned.zip
+models.zip
