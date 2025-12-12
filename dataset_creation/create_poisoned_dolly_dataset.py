@@ -16,7 +16,7 @@ def transform(ex):
 subset = subset.map(transform)
 
 # 4. Write out as JSONL
-out_path = "dolly_1k_triggered.jsonl"
+out_path = "../datasets/dolly_triggered_1k.jsonl"
 with open(out_path, "w", encoding="utf-8") as f:
     for ex in subset:
         f.write(json.dumps({
